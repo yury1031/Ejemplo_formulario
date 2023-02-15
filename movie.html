@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <form>
+        <div class="login">
+            <div class="title">
+              <img div class="image_login" src="logo.jpg" alt="logo">
+              <h1>Personal information</h1>
+            </div>
+
+            <ul>
+                <dl><a href="renta.html">Rental and movie information</a></dl>
+                <dl><a href="movie.html">Information of the person</a></dl>    
+            </ul>
+            
+            <div class="form-item">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter your name" required pattern="[A-Za-z ]+" minlength="2" maxlength="30" title="Solo letras">	
+            </div>
+
+           <div class="form-item">
+                <label for="name">Last name</label>
+                <input type="text" name="name" placeholder="Enter your Last name" required pattern="[A-Za-z ]+" minlength="2" maxlength="30" title="Solo letras">	
+            </div>
+
+            <div class="form-item">
+                <label for="name">Cell phone</label>
+                <input type="text" name="Cell" placeholder="Enter your cell phone">	
+            </div>
+
+            <div class="form-item">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter your email" required pattern="[A-Za-z ]+" minlength="2" maxlength="30" title="Solo letras">
+            </div>
+
+            <div class="form-item">
+                <label for="select">Payment methods</label>
+                <select name="select" required>
+                    <option value="cost">Nequi</option>
+                    <option value="cost">Bancolombia</option>
+                    <option value="cost">BBVA</option>
+                    <option value="cost">Banco de Bogota</option>
+                    <option value="cost">Daviplata</option>
+                    <option value="cost">Banco caja social</option>
+                    </select>
+            </div>
+            
+    
+            <div>
+                <input class="button" type="submit" name="Registrar" value="Send">
+            </div>
+        </div>  
+    </form>    
+</body>
+</html>

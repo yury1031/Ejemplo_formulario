@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="renta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <form>
+        <div class="login">
+            <div class="title">
+              <img div class="image_login" src="logo.jpg" alt="logo">
+              <h1>Movie information</h1>
+            </div>
+
+            <ul>
+                <dl><a href="renta.html">Rental and movie information</a></dl>
+                <dl><a href="movie.html">Information of the person</a></dl>    
+            </ul>
+            
+            <div class="form-item">
+                <label for="name">Name of the movie</label>
+                <input type="text" name="name" placeholder="Enter the name of the movie" required pattern="[A-Za-z ]+" minlength="2" maxlength="30" title="Solo letras">	
+            </div>
+
+           <div class="form-item">
+                <label for="name">Hour</label>
+                <input type="time" name="time" placeholder="Enter the time you rent the movie" required pattern="[0-9 ]+" title="Solo numeros">	
+            </div>
+
+            <div class="form-item">
+                <label for="name">Star date</label>
+                <input type="date" name="date" placeholder="Enter the day you rent the movie" required pattern="[0-9 ]+" title="Solo numeros">	
+            </div>
+
+            <div class="form-item">
+                <label for="name">End date</label>
+                <input type="date" name="date" placeholder="Enter the day the movie returns" required pattern="[0-9 ]+" title="Solo numeros">	
+            </div>
+
+            <div class="form-item">
+                <label for="email">Movie genre</label>
+                <select name="select">
+                    <option value="cost">Terror</option>
+                    <option value="cost">Comedy</option>
+                    <option value="cost">Romance</option>
+                    <option value="cost">Action</option>
+                    <option value="cost">Suspense</option>
+                    <option value="cost">Adventure</option>
+                </select>
+            </div>
+
+            <div class="cuadro">
+            <h2>Answer movies</h2>  
+            </div>
+    
+            <div>
+                <input class="button" type="submit" name="Registrar" value="Send">
+            </div>
+        </div>  
+    </form>    
+</body>
+</html>
